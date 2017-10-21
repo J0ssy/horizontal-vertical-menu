@@ -1,0 +1,57 @@
+body {
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Secular One', sans-serif;
+	color: SlateGrey;
+	margin-bottom: -15px;
+}
+
+ul {
+	list-style: none;
+	background-color: SlateGrey;
+	line-height: 40px;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	font-family: 'Nunito', sans-serif;
+	width: 100px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+a.user {
+	color: Crimson;
+	display: inline-block;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+
+}
+
+a:hover {
+	background-color: Crimson;
+}
+
+a.user:hover {
+	background-color: #FFF;
+	color: SlateGrey;
+}
+
+/*Modificaciones para menú vertical*/
+.vertical {
+	margin-top: 100px;
+	width: 180px;
+
+}
+
+li.nohorizontal {
+	margin-right: 0;
+	display: inline;
+}
